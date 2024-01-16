@@ -1,3 +1,9 @@
+:root {
+   /* --orange: #FF872C;*/
+    --white: #DCDCE5;
+    --blue: #3377FF;
+    --sm: 24px;
+}
 
 button {
     width: 300px;
@@ -5,15 +11,16 @@ button {
     font-family: Roboto, sans-serif;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px;
-    font-size: 24px;
-    background-color: #FF872C;
+    margin-top: 10px;
+    font-size: var(--sm);
+    background-color: var(--blue);
+
 }
 
-button:hover {
-    background-color: #DCDCE5;
-    color: #FF872C;
-}
-.Botton click{
+.boton-click {
     width: 150px;
+}
+button:hover {
+    background-color: var(--white);
+    color: var(--blue);
 }
